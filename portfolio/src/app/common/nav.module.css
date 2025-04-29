@@ -1,0 +1,32 @@
+.container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: -1px 0 5px var(--foreground);
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.listContainer {
+    list-style-type: none;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 50px;
+}
+
+.listItem {
+    width: 100px;
+    text-align: center;
+    padding-top: auto;
+    font-size: 1.2em;
+}
+
