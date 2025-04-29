@@ -2,14 +2,14 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Nav from "./common/nav";
 import Banner from "./common/banner";
-import Gallery from "./common/gallery";
+import BandGallery from "./common/bandGallery";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <Banner />
-      <Gallery />
+      <BandGallery />
     </>
   );
 }
