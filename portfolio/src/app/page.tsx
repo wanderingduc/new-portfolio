@@ -4,6 +4,7 @@ import Nav from "./common/nav";
 import Banner from "./common/banner";
 import BandGallery from "./common/bandGallery";
 import FadeInOnScrollWrapper from "./common/fadeInWrapper";
+import TextSection from "./common/textSection";
 
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
       <Nav />
       <FadeInOnScrollWrapper>
       <Banner />
+      </FadeInOnScrollWrapper>
+      <FadeInOnScrollWrapper>
+        <TextSection button={{download: true, text: 'Resume', href: '/featureplaceholder.png'}}  title='Me' text="I am a third year Computer Science student on a journey to find the limits of technology. With a strong passion for programming and robotics, I am on a quest to blurr the lines between the virtual and real world." />
       </FadeInOnScrollWrapper>
       <FadeInOnScrollWrapper>
       <BandGallery />
