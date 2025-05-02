@@ -10,9 +10,9 @@ import TextSection from "./common/textSection";
 export default function Home() {
   return (
     <>
-      <Nav />
+      <Nav name='David'/>
       <FadeInOnScrollWrapper>
-      <Banner />
+      <Banner header='David Duc-Trung Nguyen' desc='Trapped in a world of Object-Oriented Programming &#x1F622;'/>
       </FadeInOnScrollWrapper>
       <FadeInOnScrollWrapper>
         <TextSection button={{download: true, text: 'Resume', href: '/featureplaceholder.png'}}  title='Me' text="I am a third year Computer Science student on a journey to find the limits of technology. With a strong passion for programming and robotics, I am on a quest to blurr the lines between the virtual and real world." />
@@ -20,6 +20,9 @@ export default function Home() {
       <FadeInOnScrollWrapper>
       <BandGallery />
       </FadeInOnScrollWrapper>
+      <footer className={styles.footer}>
+        <p className={styles.footerText}>David Duc-Trung Nguyen 2025</p>
+      </footer>
     </>
   );
 }
