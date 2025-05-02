@@ -15,7 +15,7 @@ export default function Home() {
       <Banner header='David Duc-Trung Nguyen' desc='Trapped in a world of Object-Oriented Programming &#x1F622;'/>
       </FadeInOnScrollWrapper>
       <FadeInOnScrollWrapper>
-        <TextSection button={{download: false, text: 'Resume', href: '/featureplaceholder.png'}}  title='Me' text="I am a third year Computer Science student on a journey to find the limits of technology. With a strong passion for programming and robotics, I am on a quest to blurr the lines between the virtual and real world." />
+        <TextSection button={{download: false, text: 'Resume', href: '/DavidNguyen-resume-2025.pdf'}}  title='Me' text="I am a third year Computer Science student on a journey to find the limits of technology. With a strong passion for programming and robotics, I am on a quest to blurr the lines between the virtual and real world." />
       </FadeInOnScrollWrapper>
       <FadeInOnScrollWrapper>
       <BandGallery />
