@@ -6,12 +6,20 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    color: var(--foreground);
+    color: var(--hover-foreground);
+    background: transparent;
     /* background-color: lightgray; */
 }
 
+.header {
+    margin: 25px 0 75px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 .itemContainer {
-    padding: 0 25px;
+    padding: 0 12.5px 0 25px;
     height: 250px;
     width: 90%;
     margin: 10px 25px;
@@ -25,8 +33,15 @@
 }
 
 .itemContainer:hover {
-    box-shadow: 0 0 5px 1px var(--hover-foreground);
+    box-shadow: 0 0 8px 1px var(--hover-foreground);
     transition: 250ms;
+}
+
+@media(prefers-color-scheme: dark) {
+    .itemContainer:hover {
+        box-shadow: 0 0 5px 1px var(--hover-foreground);
+        transition: 250ms;
+    }
 }
 
 .itemTextContainer {
@@ -53,5 +68,6 @@
 
 .itemImage {
     height: 90%;
+    border-radius: 4px;
     /* background-color: lightgray; */
 }
