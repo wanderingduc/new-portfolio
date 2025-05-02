@@ -6,7 +6,7 @@ function Banner() {
         <div className={styles.container} >
             <div className={styles.headerContainer} >
                 <h1 className={styles.headerTitle} >Placeholder</h1>
-                <h3 className={styles.headerText} >Trapped in a world of Object-Oriented Programming &#x1F622;</h3>
+                <p className={styles.headerText} >Trapped in a world of Object-Oriented Programming &#x1F622;</p>
             </div>
             <div className={styles.bob}>
             <span className={styles.materialSymbolsOutlined}>stat_minus_1</span>
