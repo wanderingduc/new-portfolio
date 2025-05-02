@@ -1,12 +1,17 @@
 import styles from "./banner.module.css";
 
-function Banner() {
+interface BannerProp {
+    header: string;
+    desc: string | null;
+}
+
+function Banner(props: BannerProp) {
 
     return (
         <div className={styles.container} >
             <div className={styles.headerContainer} >
-                <h1 className={styles.headerTitle} >Placeholder</h1>
-                <p className={styles.headerText} >Trapped in a world of Object-Oriented Programming &#x1F622;</p>
+                <h1 className={styles.headerTitle} >{props.header}</h1>
+                <p className={styles.headerText} >{props.desc}</p>
             </div>
             <div className={styles.bob}>
             <span className={styles.materialSymbolsOutlined}>stat_minus_1</span>
