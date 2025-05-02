@@ -2,6 +2,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --alt-text: #171717;
+  --footer: #e0e0e0;
   /* --hover-foreground: #757575; */
   --hover-foreground: #f2eecb;
   --hover-foreground-shadow: #c2be9b;
@@ -12,6 +13,7 @@
     --background: #171717;
     --foreground: #ededed;
     --alt-text: #171717;
+    --footer: #272727;
     /* --hover-foreground: #a5a5a5; */
     --hover-foreground: #f2eecb;
     --hover-foreground-shadow: #c2be9b;
