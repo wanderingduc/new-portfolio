@@ -1,22 +1,28 @@
+
+
 .container {
     width: 100vw;
     height: 90vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: transparent;
+    overflow: hidden;
 }
 
 .headerContainer {
     height: 60%;
     width: 80%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
     display: flex;
     /* margin-right: auto; */
     /* margin-left: 7.5%; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: transparent;
 }
 
 .headerTitle {
@@ -36,4 +42,38 @@
     margin-right: 7.5%;
     height: 60%;
     width: 40%;
+}
+.materialSymbolsOutlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+
+.bob {
+    height: 100px;
+    margin-top: auto;
+    padding-top: 12px;
+    animation: bob 0.75s 4;
+}
+
+@keyframes bob  {
+    0% {
+        padding-top: 12px;
+    }
+
+    50% {
+        padding-top: 0px;
+    }
+
+    100% {
+        padding-top: 12px;
+    }
 }
