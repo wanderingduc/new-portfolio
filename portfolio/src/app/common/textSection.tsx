@@ -34,7 +34,7 @@ function TextSection(props: textProp) {
             <div className={styles.container}>
                 <h2 className={styles.header}>{props.title}</h2>
                 <p className={styles.text}>{props.text}</p>
-                <a className={styles.buttonContainer} href={props.button.href} >
+                <a className={styles.buttonContainer} href={props.button.href} target='blank_' >
                     <button className={styles.button}>
                             <p className={styles.buttonText}>{props.button.text}</p>
                     </button>
