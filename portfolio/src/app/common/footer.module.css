@@ -8,10 +8,63 @@
     justify-content: flex-end;
     background: var(--background);
     box-shadow: 0 0 8px 0 var(--hover-foreground);
+    overflow: visible;
+}
+
+.aboutButton {
+    margin: 0 auto 0 20px;
 }
 
 .footerText {
     margin: 0 25px 0 0;
     text-align: right;
     background: transparent;
+}
+
+.clickContainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 98;
+}
+
+.aboutContainer {
+    position: fixed;
+    width: 60%;
+    height: 40%;
+    left: 20%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--background);
+    box-shadow: 0 0 8px 0 var(--foreground);
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.aboutHeader {
+    margin: 50px 0 25px;
+    font-size: 2rem;
+}
+
+.aboutText {
+    width: 90%;
+    font-size: 1.25rem;
+    margin: 25px;
+    text-align: center;
+}
+
+.aboutText a {
+    text-decoration: underline;
+}
+
+.closeButton {
+    margin: auto 0 50px 0;
+    font-size: 1.25rem;
+    text-decoration: underline;
 }
