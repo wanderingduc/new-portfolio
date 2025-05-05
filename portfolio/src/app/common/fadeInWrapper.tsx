@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 const FadeInOnScrollWrapper: React.FC<{ children: React.ReactNode }> = ({ 
 children }) => {
   const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef<HTMLElement | null>(null);
+  const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     let observer: IntersectionObserver;
