@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./bandGallery.module.css";
 
 interface Item {
@@ -22,7 +21,7 @@ function BandGallery() {
                         <div className={styles.itemTextContainer} >
                             <h4 className={styles.itemName} >{item.name}</h4>
                             <p className={styles.itemDesc} >{item.desc}</p>
-                            {item.url ? <a className={styles.itemLink} href={item.url}>Github</a> : null}
+                            {item.url ? <a className={styles.itemLink} href={item.url} target="_blank" >Github</a> : null}
                         </div>
                         <img className={styles.itemImage} src={item.img} alt="Picture describing the name" />
                     </div>
