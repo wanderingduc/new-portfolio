@@ -18,7 +18,7 @@ function Project(props: ProjectProp) {
             })}
             <div className={styles.imgContainer} >
                 {props.imgs.map((img) => {
-                    return <img className={styles.img} src={img} alt='Picture from project' />
+                    return <img key={props.name} className={styles.img} src={img} alt='Picture from project' />
                 })}
             </div>
         </div>
