@@ -61,7 +61,7 @@
     height: 100px;
     margin-top: auto;
     padding-top: 12px;
-    animation: bob 0.75s 4;
+    animation: bob 0.75s infinite;
 }
 
 @keyframes bob  {
