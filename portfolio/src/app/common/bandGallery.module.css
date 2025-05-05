@@ -1,5 +1,6 @@
 .container {
     height: fit-content;
+    margin: 100px 0 100px 0;
     padding: 10px;
     display: flex;
     flex-direction: col;
@@ -12,7 +13,7 @@
 }
 
 .header {
-    margin: 25px 0 75px 0;
+    margin-bottom: 100px;
     width: 100%;
     text-align: center;
     font-size: 2.5rem;
@@ -64,6 +65,12 @@
     margin: 10px 0;
     width: 100%;
     font-size: 1.5rem;
+}
+
+.itemLink {
+    margin: 10px auto 10px 0;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 .itemImage {
