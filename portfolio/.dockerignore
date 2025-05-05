@@ -1,0 +1,6 @@
+node_modules
+dist
+
+postman.json
+Dockerfile
+docker-compose.yaml
