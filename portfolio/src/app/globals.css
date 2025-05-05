@@ -41,6 +41,7 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: var(--hover-foreground);
   transition: 150ms;
 }
