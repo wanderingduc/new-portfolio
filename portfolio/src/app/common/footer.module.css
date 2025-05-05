@@ -1,0 +1,17 @@
+.footer{
+    margin: 25px 0 0 0;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: var(--background);
+    box-shadow: 0 0 8px 0 var(--hover-foreground);
+}
+
+.footerText {
+    margin: 0 25px 0 0;
+    text-align: right;
+    background: transparent;
+}
