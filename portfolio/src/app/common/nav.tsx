@@ -10,8 +10,8 @@ function Nav(props: NavProp){
         <div className={styles.container}>
             <h1 className={styles.logo}>{props.name}</h1>
             <ul className={styles.listContainer}>
-                <li className={styles.listItem}><a href="https://github.com/wanderingduc">Github</a></li>
-                <li className={styles.listItem}><a href="https://www.linkedin.com/in/david-duc-trung-nguyen-a1201a296">LinkedIn</a></li>
+                <li className={styles.listItem}><a href="https://github.com/wanderingduc" target="_blank" >Github</a></li>
+                <li className={styles.listItem}><a href="https://www.linkedin.com/in/david-duc-trung-nguyen-a1201a296" target="_blank" >LinkedIn</a></li>
             </ul>
         </div>
     )
