@@ -5,6 +5,7 @@ import Banner from "./common/banner";
 import BandGallery from "./common/bandGallery";
 import FadeInOnScrollWrapper from "./common/fadeInWrapper";
 import TextSection from "./common/textSection";
+import Footer from "./common/footer";
 
 
 export default function Home() {
@@ -20,9 +21,7 @@ export default function Home() {
       <FadeInOnScrollWrapper>
       <BandGallery />
       </FadeInOnScrollWrapper>
-      <footer className={styles.footer}>
-        <p className={styles.footerText}>David Duc-Trung Nguyen 2025</p>
-      </footer>
+      <Footer text="David Duc-Trung Nguyen 2025" />
     </>
   );
 }
