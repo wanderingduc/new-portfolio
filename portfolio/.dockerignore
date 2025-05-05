@@ -4,3 +4,8 @@ dist
 postman.json
 Dockerfile
 docker-compose.yaml
+
+src/app/common/project.tsx
+src/app/common/project.module.css
+src/app/common/test.tsx
+src/app/pages

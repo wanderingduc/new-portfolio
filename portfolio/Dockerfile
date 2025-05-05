@@ -21,4 +21,5 @@ COPY . .
 EXPOSE 3000
 
 # Set the command to start the application
-CMD ["npm", "run", "dev"]
+RUN npx next build
+CMD ["npx", "next", "start"]
