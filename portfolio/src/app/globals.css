@@ -6,19 +6,20 @@
   /* --hover-foreground: #757575; */
   --hover-foreground: #f2eecb;
   --hover-foreground-shadow: #c2be9b;
+  --light-button: #ffffff;
+  --hover-light-button: #f0f0f0;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #171717;
     --foreground: #ededed;
     --alt-text: #171717;
     --footer: #272727;
-    /* --hover-foreground: #a5a5a5; */
     --hover-foreground: #f2eecb;
     --hover-foreground-shadow: #c2be9b;
   }
-}
+} */
 
 * {
   margin: 0;
@@ -46,8 +47,8 @@ a:hover {
   transition: 150ms;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

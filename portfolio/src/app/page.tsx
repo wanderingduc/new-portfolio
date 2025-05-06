@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Nav from "./common/nav";
 import Banner from "./common/banner";
 import BandGallery from "./common/bandGallery";

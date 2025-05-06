@@ -61,19 +61,38 @@
     height: 100px;
     margin-top: auto;
     padding-top: 12px;
-    animation: bob 0.75s infinite;
+    animation: bob 2s infinite;
 }
 
 @keyframes bob  {
     0% {
         padding-top: 12px;
+        opacity: 1;
     }
 
     50% {
         padding-top: 0px;
+        opacity: 0.25;
     }
 
     100% {
         padding-top: 12px;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .container {
+        height: 80vh;
+    }
+
+    .headerTitle {
+        margin-top: 20%;
+        font-size: 2rem;
+    }
+
+    .headerText {
+        font-size: 1.25rem;
     }
 }
