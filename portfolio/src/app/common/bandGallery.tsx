@@ -23,7 +23,7 @@ function BandGallery() {
                             <p className={styles.itemDesc} >{item.desc}</p>
                             {item.url ? <a className={styles.itemLink} href={item.url} target="_blank" >Github</a> : null}
                         </div>
-                        <img className={styles.itemImage} src={item.img} alt="Picture describing the name" />
+                        <img className={styles.itemImage} src={item.img} alt="Picture of project" />
                     </div>
                 )
             })}
